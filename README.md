@@ -23,8 +23,9 @@ Windows와 Mac 고객이 RustDesk로 원격지원을 받는 방법을 안내하�
 
 ## 다운로드 링크 및 안내 기준
 
-- RustDesk 공식 GitHub: https://github.com/rustdesk/rustdesk/releases/latest
-- Windows / Apple Silicon / Intel Mac 다운로드 버튼은 모두 **공식 최신 릴리스 페이지**를 새 탭으로 엽니다. 특정 버전 파일로 고정하지 않았으며, 파일이 바로 다운로드되지는 않습니다. 열린 페이지의 표에서 알맞은 파일을 직접 선택하세요.
+- RustDesk 공식 GitHub: https://github.com/rustdesk/rustdesk/releases/tag/1.5.1
+- Windows / Apple Silicon / Intel Mac 다운로드 버튼은 모두 **공식 1.5.1 릴리스 페이지**를 새 탭으로 엽니다. 안내 버전은 1.5.1로 고정했으며, 파일이 바로 다운로드되지는 않습니다. 열린 페이지의 표에서 알맞은 파일을 직접 선택하세요.
+- RustDesk 1.5.1은 Windows 원격지원 핵심 기능을 테스트한 버전이며, macOS는 아직 테스트 전입니다.
 - 일반 Windows Intel / AMD 64비트 PC: **x86-64 행 → Windows 열 → EXE**. Windows ARM PC: **AArch64 (ARM64) 행 → Windows 열 → EXE**.
 - Mac 칩 확인: **Apple 메뉴 → 이 Mac에 관하여**에서 ‘칩’이 Apple M 시리즈이면 Apple Silicon, ‘프로세서’가 Intel이면 Intel Mac입니다.
 - Apple Silicon Mac: **AArch64 (ARM64) 행 → Mac 열 → Download**. Assets 목록에서는 **aarch64.dmg**로 끝나는 파일을 선택하세요.
@@ -34,6 +35,8 @@ Windows와 Mac 고객이 RustDesk로 원격지원을 받는 방법을 안내하�
 - 공식 릴리스의 링크 목적지를 확인했습니다. 설치 파일 자체를 다운로드하거나 실행하지는 않았습니다.
 
 ## 개인정보 및 원격 연결
+
+일반 원격지원은 일회용 비밀번호를 사용합니다. 장시간 원격수리는 고객 동의하에 무인 접속을 설정하고, 작업 종료 시 해제합니다.
 
 이 홈페이지는 원격지원 ID와 비밀번호를 입력받거나 저장·전송하지 않습니다. 다운로드와 원격 연결은 RustDesk 외부 서비스를 이용합니다. 홈페이지를 여는 것만으로 원격 연결되지는 않습니다. 자체 원격 중계 서버를 구축하지 않으며, RustDesk 클라이언트의 네트워크 연결이 필요합니다. 담당자 연락처는 지정되지 않아 가상 연락처나 작동하지 않는 상담 버튼을 넣지 않았습니다.
 
